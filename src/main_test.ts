@@ -3,6 +3,10 @@ import { assertEquals } from "@std/assert";
 import { assertSnapshot } from "@std/testing/snapshot";
 import { describe, test } from "@std/testing/bdd";
 
+Deno.test("test 1", () => {
+  assertEquals(add(1, 2), 3);
+});
+
 describe("add", () => {
   test("result", () => {
     assertEquals(add(1, 2), 3);
