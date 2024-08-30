@@ -1,0 +1,255 @@
+{
+  "manifest": {
+    "/types.ts": {
+      "size": 489,
+      "checksum": "sha256-606fb6fe832f6114779569659a61f02a2fa2f9b75cf7e7ee1ad4cfb176b1caf9"
+    },
+    "/format.ts": {
+      "size": 1123,
+      "checksum": "sha256-0b380161315f6b3ef5222847177047e01e049f4757bac5b7f7843c9ce3311eb5"
+    },
+    "/LICENSE": {
+      "size": 1075,
+      "checksum": "sha256-0961f97da6619d5fe9ddb98649191d5ca6e958856ea5252f4cce7c9b85513819"
+    },
+    "/build_message.ts": {
+      "size": 3606,
+      "checksum": "sha256-684e3128b293cd9d10f1948957876ddf8a486e7ee31b4e3ca8455db74ae36012"
+    },
+    "/deno.json": {
+      "size": 290,
+      "checksum": "sha256-0bb5cc88dc5ad937a414b8ed3fdaff6bdf98b81793fb2a161adf5b73f3b896e0"
+    },
+    "/diff_str_test.ts": {
+      "size": 7545,
+      "checksum": "sha256-e15aee0661e3c233374f650f9d99fd41e0aaa1130408fa62985595e5ad36f351"
+    },
+    "/format_test.ts": {
+      "size": 3310,
+      "checksum": "sha256-87d84ae4eabb968e4098d59b61878a591e9516d8ff56f0b0c474612cb17f9e89"
+    },
+    "/diff_str.ts": {
+      "size": 5365,
+      "checksum": "sha256-9a1e78185aa461f59bcedd2826333872a500a2e6db1b603c9cbc51c09ce24be9"
+    },
+    "/build_message_test.ts": {
+      "size": 1457,
+      "checksum": "sha256-f6a1a64a51f8948eec4587e37117c3c6bbb4d85e794f1a49dea68ae369ffaf7d"
+    },
+    "/diff_test.ts": {
+      "size": 5350,
+      "checksum": "sha256-79d3402f0593116c68c38f99f22a35c39b65453a4d740709f4f20d86ba97e8fc"
+    },
+    "/diff.ts": {
+      "size": 8224,
+      "checksum": "sha256-b7e3bd42c1967ad6b13531503eeb2edb103690087cdd1e50aa71c41208d400e8"
+    },
+    "/styles.ts": {
+      "size": 5515,
+      "checksum": "sha256-86159ab0f45ea55643fbe727f20daaf4670d6ace57d83dab7406f74e4486a0e6"
+    },
+    "/styles_test.ts": {
+      "size": 2187,
+      "checksum": "sha256-c571d602867e4337b19ba338e98a67c0a475342771434518c4b7431961f28617"
+    },
+    "/mod.ts": {
+      "size": 1114,
+      "checksum": "sha256-5c171da54900bad717b5714ba63c2db409007e1d8ce237fee84e80ec52a55e52"
+    }
+  },
+  "moduleGraph2": {
+    "/build_message.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./styles.ts",
+          "specifierRange": [
+            [
+              3,
+              62
+            ],
+            [
+              3,
+              75
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "importType",
+          "specifier": "./types.ts",
+          "specifierRange": [
+            [
+              4,
+              42
+            ],
+            [
+              4,
+              54
+            ]
+          ]
+        }
+      ]
+    },
+    "/styles.ts": {},
+    "/mod.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./build_message.ts",
+          "specifierRange": [
+            [
+              38,
+              14
+            ],
+            [
+              38,
+              34
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./diff.ts",
+          "specifierRange": [
+            [
+              39,
+              14
+            ],
+            [
+              39,
+              25
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./diff_str.ts",
+          "specifierRange": [
+            [
+              40,
+              14
+            ],
+            [
+              40,
+              29
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./format.ts",
+          "specifierRange": [
+            [
+              41,
+              14
+            ],
+            [
+              41,
+              27
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./styles.ts",
+          "specifierRange": [
+            [
+              42,
+              14
+            ],
+            [
+              42,
+              27
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./types.ts",
+          "specifierRange": [
+            [
+              43,
+              14
+            ],
+            [
+              43,
+              26
+            ]
+          ]
+        }
+      ]
+    },
+    "/format.ts": {},
+    "/types.ts": {},
+    "/diff.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "importType",
+          "specifier": "./types.ts",
+          "specifierRange": [
+            [
+              3,
+              42
+            ],
+            [
+              3,
+              54
+            ]
+          ]
+        }
+      ]
+    },
+    "/diff_str.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "importType",
+          "specifier": "./types.ts",
+          "specifierRange": [
+            [
+              1,
+              32
+            ],
+            [
+              1,
+              44
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./diff.ts",
+          "specifierRange": [
+            [
+              2,
+              21
+            ],
+            [
+              2,
+              32
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "exports": {
+    ".": "./mod.ts",
+    "./build-message": "./build_message.ts",
+    "./diff-str": "./diff_str.ts",
+    "./diff": "./diff.ts",
+    "./format": "./format.ts",
+    "./styles": "./styles.ts",
+    "./types": "./types.ts"
+  }
+}

@@ -1,6 +1,10 @@
 # Code Hustler's Boilerplate
 
-Boiler plate FE+BE app that tries to be as simple as possible without compromising on features and safety
+Boiler plate FE+BE app that tries to
+
+- be as simple as possible
+- have as little dependencies as possible
+- without compromising on features and safety
 
 ## Dependencies
 
@@ -13,13 +17,13 @@ Boiler plate FE+BE app that tries to be as simple as possible without compromisi
 
 - General
   - [x] Format with `deno fmt`
-  - [x] Code cheks
+  - [x] Code checks
     - [x] Lint with `deno lint`
     - [x] Type check with `deno check`
     - [x] Tests with `deno test`
     - [x] Tests coverage `deno coverage`
     - [x] Tests benchmarking `deno bench`
-  - [ ] Local dependencies (maybe committed to the repo?)
+  - [x] Local dependencies
 - DB
   - [ ] DB
   - [ ] DB migrations

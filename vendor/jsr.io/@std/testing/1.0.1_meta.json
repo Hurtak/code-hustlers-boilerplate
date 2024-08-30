@@ -1,0 +1,421 @@
+{
+  "manifest": {
+    "/_time.ts": {
+      "size": 296,
+      "checksum": "sha256-3fb48d6f329981d6d0be6d8724a95bc4b1e548ac3f0a3ecd716e45f13dcf8643"
+    },
+    "/types_test.ts": {
+      "size": 9680,
+      "checksum": "sha256-a6aca004f790fa29b245d98d2518b8024d5b11d12674f586d11c91d536301ef5"
+    },
+    "/__snapshots__/snapshot_test.ts.snap": {
+      "size": 9329,
+      "checksum": "sha256-f88a13b80d679c3ca01d77f2d8750905d9aaf5a00aa28c3ee134e53c04b51a2b"
+    },
+    "/_test_suite.ts": {
+      "size": 11796,
+      "checksum": "sha256-2cd2b9cd862ff88c4aaf9ec196d89b97945fc8555f288baa73818419c2814068"
+    },
+    "/snapshot.ts": {
+      "size": 21476,
+      "checksum": "sha256-6b5371987243b94bca5f2c4980af3b023cd98ae273dbd526550fd65266a8d612"
+    },
+    "/time.ts": {
+      "size": 22143,
+      "checksum": "sha256-75849d7676aaf0ef65c42dc948da80cf21551966acdaa5fbad11f739e6d8a7c3"
+    },
+    "/snapshot_test.ts": {
+      "size": 23916,
+      "checksum": "sha256-96b48c31638e48767ff1ee36b733f12a4742858ed712ef723d83d20b3d96071d"
+    },
+    "/mock_test.ts": {
+      "size": 56015,
+      "checksum": "sha256-9a6d6af738ce9dacbea6e5b2cb7236681cc94b33c78df5f85f35aa9bb4aa04a6"
+    },
+    "/_test_utils.ts": {
+      "size": 663,
+      "checksum": "sha256-c4f1b38fe0b56c4f261d56c2add53bac0112c24137822504bbd8bb40f756dd7e"
+    },
+    "/__snapshots__/options_tests/snapshot_test.ts.snap": {
+      "size": 198,
+      "checksum": "sha256-f78ae80e8c6162a42d872beeee5ff3cf4d4a9beb079cf16d6c0f9892bab7ba07"
+    },
+    "/__snapshots__/options_tests/custom_path.snap": {
+      "size": 200,
+      "checksum": "sha256-522c42d0e371e99fd65069618dcdf2d68594c5c60680825be6557bd58761daca"
+    },
+    "/README.md": {
+      "size": 987,
+      "checksum": "sha256-426e259529cb3fa6c3ff38642e274904d45d68d0dabc5397b96fb1426bcb9669"
+    },
+    "/LICENSE": {
+      "size": 1075,
+      "checksum": "sha256-0961f97da6619d5fe9ddb98649191d5ca6e958856ea5252f4cce7c9b85513819"
+    },
+    "/mock.ts": {
+      "size": 53040,
+      "checksum": "sha256-85022c83c8ada9341171c7a02b208cac2d4ec923f4fcab049bc28db42f7d8683"
+    },
+    "/bdd_test.ts": {
+      "size": 63341,
+      "checksum": "sha256-474935915812ab91f922760e06d9c35bc7e2f3d281351bb0bca465061991ecb3"
+    },
+    "/time_test.ts": {
+      "size": 24052,
+      "checksum": "sha256-827c7baac9c2fb623e239b4d5cdd34f4d7860a7e82e11b4f9b913bc3c7be5dc9"
+    },
+    "/bdd.ts": {
+      "size": 29378,
+      "checksum": "sha256-ac8dcb96b28f764d199c3b7ae016ec66ad95913615073e0966d7273d73f0e039"
+    },
+    "/types.ts": {
+      "size": 8447,
+      "checksum": "sha256-e0662519f41c155ad3570a0f396ff9b2e24b30eee4ebe775a396713c2c80cc66"
+    },
+    "/deno.json": {
+      "size": 213,
+      "checksum": "sha256-8142d6d33552c727785eadff2d2f228f7145534c05e4302bb031d36804e1e52b"
+    }
+  },
+  "moduleGraph2": {
+    "/time.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:@std/data-structures@^1.0.2/red-black-tree",
+          "specifierRange": [
+            [
+              38,
+              29
+            ],
+            [
+              38,
+              77
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:@std/data-structures@^1.0.2/comparators",
+          "specifierRange": [
+            [
+              39,
+              23
+            ],
+            [
+              39,
+              68
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "importType",
+          "specifier": "jsr:@std/async@^1.0.4/delay",
+          "specifierRange": [
+            [
+              40,
+              34
+            ],
+            [
+              40,
+              63
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./_time.ts",
+          "specifierRange": [
+            [
+              41,
+              27
+            ],
+            [
+              41,
+              39
+            ]
+          ]
+        }
+      ]
+    },
+    "/_test_suite.ts": {},
+    "/snapshot.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:@std/path@^1.0.3/from-file-url",
+          "specifierRange": [
+            [
+              138,
+              28
+            ],
+            [
+              138,
+              64
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:@std/path@^1.0.3/parse",
+          "specifierRange": [
+            [
+              139,
+              22
+            ],
+            [
+              139,
+              50
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:@std/path@^1.0.3/resolve",
+          "specifierRange": [
+            [
+              140,
+              24
+            ],
+            [
+              140,
+              54
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:@std/path@^1.0.3/to-file-url",
+          "specifierRange": [
+            [
+              141,
+              26
+            ],
+            [
+              141,
+              60
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:@std/fs@^1.0.2/ensure-file",
+          "specifierRange": [
+            [
+              142,
+              43
+            ],
+            [
+              142,
+              75
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:@std/assert@^1.0.3/assert",
+          "specifierRange": [
+            [
+              143,
+              23
+            ],
+            [
+              143,
+              54
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:@std/assert@^1.0.3/assertion-error",
+          "specifierRange": [
+            [
+              144,
+              31
+            ],
+            [
+              144,
+              71
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:@std/assert@^1.0.3/equal",
+          "specifierRange": [
+            [
+              145,
+              22
+            ],
+            [
+              145,
+              52
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:@std/internal@^1.0.2/diff",
+          "specifierRange": [
+            [
+              146,
+              21
+            ],
+            [
+              146,
+              52
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:@std/internal@^1.0.2/diff-str",
+          "specifierRange": [
+            [
+              147,
+              24
+            ],
+            [
+              147,
+              59
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:@std/internal@^1.0.2/build-message",
+          "specifierRange": [
+            [
+              148,
+              29
+            ],
+            [
+              148,
+              69
+            ]
+          ]
+        },
+        {
+          "type": "dynamic",
+          "argumentRange": [
+            [
+              397,
+              40
+            ],
+            [
+              397,
+              55
+            ]
+          ]
+        }
+      ]
+    },
+    "/_time.ts": {},
+    "/bdd.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./_test_suite.ts",
+          "specifierRange": [
+            [
+              410,
+              7
+            ],
+            [
+              410,
+              25
+            ]
+          ]
+        }
+      ]
+    },
+    "/types.ts": {},
+    "/mock.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:@std/assert@^1.0.3/equals",
+          "specifierRange": [
+            [
+              321,
+              29
+            ],
+            [
+              321,
+              60
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:@std/assert@^1.0.3/is-error",
+          "specifierRange": [
+            [
+              322,
+              30
+            ],
+            [
+              322,
+              63
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:@std/assert@^1.0.3/rejects",
+          "specifierRange": [
+            [
+              323,
+              30
+            ],
+            [
+              323,
+              62
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:@std/assert@^1.0.3/assertion-error",
+          "specifierRange": [
+            [
+              324,
+              31
+            ],
+            [
+              324,
+              71
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "exports": {
+    "./bdd": "./bdd.ts",
+    "./mock": "./mock.ts",
+    "./snapshot": "./snapshot.ts",
+    "./time": "./time.ts",
+    "./types": "./types.ts"
+  }
+}
