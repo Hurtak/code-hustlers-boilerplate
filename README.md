@@ -24,31 +24,37 @@ Boiler plate FE+BE app that tries to
     - [x] Tests coverage `deno coverage`
     - [x] Tests benchmarking `deno bench`
   - [x] Local dependencies
+- API
+  - [x] Web server with `hono`
+  - [x] Shape validation with `hono/zod-validator`
+    - [ ] Response serialization/validation https://github.com/honojs/hono/issues/2439
+  - [ ] env variables
+  - [ ] Routing
+    - [x] 200
+    - [ ] redirects
+    - [ ] 404
+  - middlewares
+  - [ ] Tests
+  - [ ] Api tests
+  - Tooling
+    - [ ] Debugger/Stepping through the code
+  - [ ] Logging
+  - Infra
+    - [ ] Lambdas?
+      - lambda states
+    - [ ] Jobs
+      - job states
+    - [ ] Cron
+      - job states
+    - [ ] S3/Files?
 - DB
   - [ ] DB
   - [ ] DB migrations
-- API
-  - [ ] Routing
-    - [ ] 200
-    - [ ] 204
-    - [ ] redirects
-    - [ ] 404
-  - [ ] Debugger/Stepping through the code
-  - [ ] Logging
-  - [ ] Shape validation
-  - [ ] Lambdas?
-    - lambda states
-  - [ ] Jobs
-    - job states
-  - [ ] Cron
-    - job states
-  - [ ] S3/Files?
-  - [ ] Tests
-    - [ ] Api tests
 - Deployment
   - [ ] Auto scale group
   - [ ] Health checks
 - FE
+  - [ ] share with BE the api stuff https://hono.dev/docs/concepts/stacks#client
   - [ ] FE specific Lint
     - [ ] Demo's missing React rules linting
   - [ ] React

@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "dev": "deno run --watch src/main.ts",
+    "dev": "deno run --allow-net --watch src/main.ts",
     "test:watch": "deno test --watch",
     "test:coverage": "deno test --coverage && deno coverage",
     "fix": "deno fmt && deno lint --fix",
@@ -13,5 +13,5 @@
   "fmt": {
     "lineWidth": 120
   },
-  "vendor": true
+  "vendor": false
 }
