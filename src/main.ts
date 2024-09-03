@@ -1,6 +1,8 @@
 import { zValidator } from "npm:@hono/zod-validator";
-import { z } from "npm:zod";
 import { Hono } from "npm:hono";
+import { z } from "npm:zod";
+
+import { config } from "./config.ts";
 
 const app = new Hono();
 
@@ -25,4 +27,4 @@ app.post(
   },
 );
 
-Deno.serve({ port: 8001 }, app.fetch);
+Deno.serve({ port: config.PORT }, app.fetch);

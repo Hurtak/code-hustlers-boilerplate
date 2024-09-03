@@ -26,9 +26,9 @@ Boiler plate FE+BE app that tries to
   - [x] Local dependencies
 - API
   - [x] Web server with `hono`
-  - [x] Shape validation with `hono/zod-validator`
+  - [x] Route shape validation with `hono/zod-validator`
     - [ ] Response serialization/validation https://github.com/honojs/hono/issues/2439
-  - [ ] env variables
+  - [x] Typed environment variables and .env files support
   - [ ] Routing
     - [x] 200
     - [ ] redirects

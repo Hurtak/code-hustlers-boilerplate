@@ -1,6 +1,7 @@
-import { add } from "./utils.ts";
 import { assertEquals } from "@std/assert";
 import { describe, test } from "@std/testing/bdd";
+
+import { add } from "./utils.ts";
 
 describe("add", () => {
   test("adds numbers", () => {
