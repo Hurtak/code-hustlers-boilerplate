@@ -26,19 +26,13 @@ Boiler plate FE+BE app that tries to
   - [x] Local dependencies
 - API
   - [x] Web server with `hono`
+  - [x] Logging with `hono/logger`
   - [x] Route shape validation with `hono/zod-validator`
     - [ ] Response serialization/validation https://github.com/honojs/hono/issues/2439
   - [x] Typed environment variables and .env files support
-  - [ ] Routing
-    - [x] 200
-    - [ ] redirects
-    - [ ] 404
-  - middlewares
-  - [ ] Tests
+  - [x] Debugger - add `--inspect-wait` parameter and connect with browser dev tools
   - [ ] Api tests
-  - Tooling
-    - [ ] Debugger/Stepping through the code
-  - [ ] Logging
+  - [ ] Auth
   - Infra
     - [ ] Lambdas?
       - lambda states

@@ -1,13 +1,15 @@
 import { zValidator } from "npm:@hono/zod-validator";
 import { Hono } from "npm:hono";
+import { logger } from "npm:hono/logger";
 import { z } from "npm:zod";
 
 import { config } from "./config.ts";
 
 const app = new Hono();
+app.use(logger());
 
 app.get("/health-check", (c) => {
-  return c.text("OK", 200);
+  return c.text("OK");
 });
 
 app.post(
