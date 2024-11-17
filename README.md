@@ -25,25 +25,27 @@ Boiler plate FE+BE app that tries to
     - [x] Tests benchmarking `deno bench`
   - [x] Local dependencies
 - API
-  - [x] Web server with `hono`
-  - [x] Logging with `hono/logger`
-  - [x] Route shape validation with `hono/zod-validator`
-    - [ ] Response serialization/validation https://github.com/honojs/hono/issues/2439
+  - [x] Web server with `effect/platform`
+    - [x] Logging with `effect`
+    - [x] Route shape validation with `effect`
   - [x] Typed environment variables and .env files support
   - [x] Debugger - add `--inspect-wait` parameter and connect with browser dev tools
   - [ ] Api tests
   - [ ] Auth
-  - Infra
-    - [ ] Lambdas?
-      - lambda states
-    - [ ] Jobs
-      - job states
-    - [ ] Cron
-      - job states
-    - [ ] S3/Files?
 - DB
+  - sqlite vs postgress?
+  - what about the new sql thing
+    - edge db?
   - [ ] DB
   - [ ] DB migrations
+- Infra
+  - [ ] Lambdas?
+    - lambda states
+  - [ ] Jobs
+    - job states
+  - [ ] Cron
+    - job states
+  - [ ] S3/Files?
 - Deployment
   - [ ] Auto scale group
   - [ ] Health checks
