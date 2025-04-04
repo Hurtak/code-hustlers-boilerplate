@@ -1,5 +1,5 @@
 import { HttpApi, HttpApiBuilder, HttpApiEndpoint, HttpApiGroup, HttpMiddleware, HttpServer } from "@effect/platform";
-import { Console, Context, DateTime, Effect, Layer, Schema } from "effect";
+import { Context, DateTime, Effect, Layer, Schema } from "effect";
 import { NodeHttpServer, NodeRuntime } from "@effect/platform-node";
 import { createServer } from "node:http";
 
@@ -25,7 +25,7 @@ class HealthCheckApi extends HttpApiGroup.make("healthCheck").add(
     .addSuccess(Schema.String),
 ) {}
 
-class MyApi extends HttpApi.empty
+class MyApi extends HttpApi.make("myApi")
   .add(UsersApi)
   .add(HealthCheckApi) {}
 
