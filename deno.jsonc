@@ -2,7 +2,7 @@
   "tasks": {
     "dev": "deno run -A --env=.env --watch src/main.ts",
     "test:watch": "deno test --watch",
-    "test:coverage": "deno test --coverage && deno coverage",
+    "test:coverage": "deno test --coverage",
     "fix": "deno fmt && deno lint --fix",
     "check": "deno check src/main.ts && deno lint && deno fmt --check"
   },
