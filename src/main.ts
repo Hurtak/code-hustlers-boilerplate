@@ -1,4 +1,12 @@
-import { HttpApi, HttpApiBuilder, HttpApiEndpoint, HttpApiGroup, HttpMiddleware, HttpServer } from "@effect/platform";
+import {
+  HttpApi,
+  HttpApiBuilder,
+  HttpApiEndpoint,
+  HttpApiGroup,
+  HttpApiSwagger,
+  HttpMiddleware,
+  HttpServer,
+} from "@effect/platform";
 import { Context, DateTime, Effect, Layer, Schema } from "effect";
 import { NodeHttpServer, NodeRuntime } from "@effect/platform-node";
 import { createServer } from "node:http";
@@ -87,6 +95,7 @@ const MyApiLive = HttpApiBuilder.api(MyApi).pipe(
 );
 
 const HttpLive = HttpApiBuilder.serve(HttpMiddleware.logger).pipe(
+  Layer.provide(HttpApiSwagger.layer({ path: "/docs" })),
   Layer.provide(HttpApiBuilder.middlewareCors()),
   Layer.provide(MyApiLive),
   HttpServer.withLogAddress,
