@@ -32,6 +32,8 @@ Boiler plate FE+BE app that tries to
   - [x] Debugger - add `--inspect-wait` parameter and connect with browser dev tools
   - [ ] Api tests
   - [ ] Auth
+    - [ ] Regular user
+    - [ ] Admin user
 - DB
   - sqlite vs postgress?
   - what about the new sql thing
@@ -39,8 +41,6 @@ Boiler plate FE+BE app that tries to
   - [ ] DB
   - [ ] DB migrations
 - Infra
-  - [ ] Lambdas?
-    - lambda states
   - [ ] Jobs
     - job states
   - [ ] Cron
@@ -53,7 +53,7 @@ Boiler plate FE+BE app that tries to
   - [ ] share with BE the api stuff https://hono.dev/docs/concepts/stacks#client
   - [ ] FE specific Lint
     - [ ] Demo's missing React rules linting
-  - [ ] React
+  - [ ] React (Preact?)
   - [ ] Code sharing (types and validators with API)
 
 ## Notes
